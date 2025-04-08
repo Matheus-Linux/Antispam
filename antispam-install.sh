@@ -42,13 +42,13 @@ fi
 
 
 #Download Mailscanner
-#wget $MAILSCANNER
+wget $MAILSCANNER
 
 #Extract Mailscanner
-#tar -zxvf MailScanner-5.5.3-2.nix.tar.gz
+tar -zxvf MailScanner-5.5.3-2.nix.tar.gz
 
 #Copy cofiguration files
-#cp -R ./MailScanner-5.5.3/etc/MailScanner/ /etc/
+cp -R ./MailScanner-5.5.3/etc/MailScanner/ /etc/
 
 cp -v ./MailScanner-5.5.3/usr/sbin/* /usr/sbin/
 
